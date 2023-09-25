@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" name="check" id="check">
+      <label for="check" class="menu">
+        <i class='bx bx-menu' id="open-menu"></i>
+        <i class='bx bx-x' id="close-menu"></i>
+      </label>
+      <a href="index.html" class="logo">Portfolio.</a>
+      <nav class="navbar">
+        <a href="index.html" style="--i:0;" scroll>Home</a>
+        <a href="#abt" style="--i:1;">About</a>
+        <a href="#portf" style="--i:2;">Portfolio</a>
+        <a href="MyResume.pdf" style="--i:3;" target="_blank"
+          >Resume</a>
+          
+        <!-- <a href="#">Contact</a> -->
+      </nav>
+      
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h1>Aryan Jain</h1>
+        <h3>FrontEnd Developer</h3>
+        <div class="btn-box">
+          <!-- <a href="#">Hire Me</a> -->
+          <a href="#" id="contact-me">Contact Me</a>
+        </div>
+      </div>
+      <div class="icon">
+        <a href="https://www.instagram.com/aaryan_jaain/" target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/aryan-jain-653a62232/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/aryanjain01" target="_blank"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+    </section>
+
+<section class="formmm" id="formmm">
+  <h2 class="contactheading">Contact Form</h2>
+  <form id="contact-form">
+    <div class="container" id="connn">
+      <!-- <h2 class="contactheading">Contact Form</h2> -->
+      <div class="card">
+        <div class="left">
+          <img
+            src="https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1910&q=80"
+          />
+        </div>
+        <div class="right">
+          <h2 class="h2">Contact Me</h2>
+          <div class="contact">
+            <div class="form-container">
+              <form class="form">
+                <div class="username">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your Name"
+                  />
+                </div>
+                <div class="useremail">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="usermessage">
+                  <textarea
+                    placeholder="Enter your message"
+                    id="message"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="usersubmit">
+                  <input type="submit" value="Contact Us" />
+                </div>
+              </form>
+            </div>
+            <div class="address">
+              <div class="email">
+                <h4>Email</h4>
+                <p>aryan.jain1841@gmail.com</p>
+              </div>
+              <div class="location">
+                <h4>Based in</h4>
+                <p>India/Bharat</p>
+              </div>
+              <div class="social">
+                <span
+                  ><a href="#"><i class="fab fa-facebook"></i></a
+                ></span>
+                <span
+                  ><a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i></a
+                ></span>
+                <span
+                  ><a href="#" target="_blank"
+                    ><i class="fab fa-twitter"></i></a
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+    <section class="aboutsection" id="abt">
+      <h2 class="aboutheading">About Me</h2>
+      <div class="aboutcontent">
+        <span class="img">
+          <img class=""
+            src="IMG_𝚅𝙸𝚉𝚉_7 Apr 12_29.lmc_8.4.PORTRAIT (1).jpg"
+            alt="profilephoto"
+          />
+        </span>
+        <p class="aboutpara">
+          I am a passionate and creative web developer with a strong foundation
+          in front-end technologies. My journey in web development began with a
+          curiosity to bring ideas to life on the internet, and it has since
+          evolved into a fulfilling career. I specialize in building responsive
+          and user-friendly websites and web applications. Whether it's crafting
+          elegant user interfaces or writing efficient server-side code, I enjoy
+          every aspect of the development process.
+        </p>
+      </div>
+    </section>
+    <section class="portfolio" id="portf">
+      <h2 class="portfolioheading">Skills</h2>
+        <div class="skillscontent">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="progress-line"><span class="bootstrap"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line">
+                        <span class="javascript"></span>
+                      </div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>PYTHON PROGRAMMING</span>
+                        </div>
+                        <div class="progress-line"><span class="python"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script>
+      document.getElementById("contact-me").addEventListener("click", (e) => {
+        document.getElementById("connn").style.display = "flex";
+        window.scrollTo(0, 700);
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const contactForm = document.getElementById("contact-form");
+
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          emailjs.init("VQrz_8NYNHlggMtsC");
+
+          emailjs.sendForm("service_1vfczrm", "template_qmkflah", this).then(
+            function (response) {
+              console.log("Email sent successfully:", response);
+              alert("Email sent successfully!");
+            },
+            function (error) {
+              console.log("Email sending failed:", error);
+              alert("Email sending failed. Please try again later.");
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
